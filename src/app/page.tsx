@@ -1,7 +1,9 @@
+import Banner from "@/sections/banner";
+
 export default function Home() {
   return (
-    <h1 className="min-h-screen flex justify-center items-center bg-white text-black">
-      Hello
-    </h1>
+    <div className="min-h-screen bg-white flex flex-col items-center pt-16">
+      <Banner />
+    </div>
   );
 }
