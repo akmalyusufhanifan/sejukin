@@ -1,6 +1,7 @@
 import Banner from "@/sections/banner";
 import AboutUs from "@/sections/about-us";
 import Service from "@/sections/service";
+import Gallery from "@/sections/gallery";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Banner />
       <AboutUs />
       <Service />
+      <Gallery />
     </div>
   );
 }
