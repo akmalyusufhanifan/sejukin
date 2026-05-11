@@ -2,7 +2,10 @@ import Image from "next/image";
 
 export default function AboutUs() {
   return (
-    <section className="min-h-fit w-full flex flex-col items-center px-8 space-y-8 lg:flex-row lg:justify-between lg:px-40">
+    <section
+      id="about"
+      className="min-h-fit w-full flex flex-col items-center px-8 space-y-8 lg:flex-row lg:justify-between lg:px-40 scroll-mt-22"
+    >
       <Image
         src="/about-us-image.webp"
         alt="Sejukin Image Description"

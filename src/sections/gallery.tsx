@@ -3,7 +3,10 @@ import { galleryImages } from "@/data/gallery";
 
 export default function Gallery() {
   return (
-    <section className="min-h-fit w-full flex flex-col items-center space-y-8 px-8 lg:px-40 bg-[linear-gradient(to_right,#f1f5f9_2px,transparent_1px),linear-gradient(to_bottom,#f1f5f9_2px,transparent_1px)] bg-size-[40px_40px]">
+    <section
+      id="gallery"
+      className="min-h-fit w-full flex flex-col items-center space-y-8 px-8 lg:px-40 scroll-mt-20 bg-[linear-gradient(to_right,#f1f5f9_2px,transparent_1px),linear-gradient(to_bottom,#f1f5f9_2px,transparent_1px)] bg-size-[40px_40px]"
+    >
       <div className="flex flex-col items-center space-y-4">
         <h2 className="text-3xl text-sky-700 font-semibold md:text-4xl">
           Gallery

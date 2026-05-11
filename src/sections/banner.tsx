@@ -11,7 +11,8 @@ export default function Banner() {
   }, []);
   return (
     <section
-      className={`w-full transition-all duration-1500 ease-out ${
+      id="banner"
+      className={`w-full transition-all duration-1500 ease-out scroll-mt-20 ${
         showBanner ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
       }`}
     >

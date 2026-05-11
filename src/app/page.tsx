@@ -2,6 +2,7 @@ import Banner from "@/sections/banner";
 import AboutUs from "@/sections/about-us";
 import Service from "@/sections/service";
 import Gallery from "@/sections/gallery";
+import Contact from "@/sections/contact";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <AboutUs />
       <Service />
       <Gallery />
+      <Contact />
     </div>
   );
 }

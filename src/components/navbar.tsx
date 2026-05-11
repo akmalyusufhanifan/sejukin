@@ -36,19 +36,19 @@ export default function NavBar() {
 
         {/* navigation - desktop */}
         <div className="hidden md:flex justify-between items-center w-125 text-black text-xl">
-          <a href="#" className="hover:opacity-50">
+          <a href="#banner" className="hover:opacity-50">
             Home
           </a>
-          <a href="#" className="hover:opacity-50">
+          <a href="#about" className="hover:opacity-50">
             About Us
           </a>
-          <a href="#" className="hover:opacity-50">
+          <a href="#service" className="hover:opacity-50">
             Service
           </a>
-          <a href="#" className="hover:opacity-50">
+          <a href="#gallery" className="hover:opacity-50">
             Gallery
           </a>
-          <a href="#" className="hover:opacity-50">
+          <a href="#contact" className="hover:opacity-50">
             Contact
           </a>
         </div>
@@ -79,19 +79,19 @@ export default function NavBar() {
 
         <ul className="pl-6 pt-4 text-xl text-black space-y-4">
           <li className="hover:opacity-50 hover:cursor-pointer">
-            <a href="#">Home</a>
+            <a href="#banner">Home</a>
           </li>
           <li className="hover:opacity-50 hover:cursor-pointer">
-            <a href="#">About Us</a>
+            <a href="#about">About Us</a>
           </li>
           <li className="hover:opacity-50 hover:cursor-pointer">
-            <a href="#">Service</a>
+            <a href="#service">Service</a>
           </li>
           <li className="hover:opacity-50 hover:cursor-pointer">
-            <a href="#">Gallery</a>
+            <a href="#gallery">Gallery</a>
           </li>
           <li className="hover:opacity-50 hover:cursor-pointer">
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>

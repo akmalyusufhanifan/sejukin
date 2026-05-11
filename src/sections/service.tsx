@@ -2,7 +2,10 @@ import Image from "next/image";
 
 export default function Service() {
   return (
-    <section className="min-h-fit w-full flex flex-col items-center space-y-8">
+    <section
+      id="service"
+      className="min-h-fit w-full flex flex-col items-center space-y-8 scroll-mt-25"
+    >
       <h2 className="text-3xl text-sky-700 font-semibold md:text-4xl">
         Our Services
       </h2>
