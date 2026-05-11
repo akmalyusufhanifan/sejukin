@@ -79,19 +79,29 @@ export default function NavBar() {
 
         <ul className="pl-6 pt-4 text-xl text-black space-y-4">
           <li className="hover:opacity-50 hover:cursor-pointer">
-            <a href="#banner">Home</a>
+            <a href="#banner" onClick={() => setIsOpen(false)}>
+              Home
+            </a>
           </li>
           <li className="hover:opacity-50 hover:cursor-pointer">
-            <a href="#about">About Us</a>
+            <a href="#about" onClick={() => setIsOpen(false)}>
+              About Us
+            </a>
           </li>
           <li className="hover:opacity-50 hover:cursor-pointer">
-            <a href="#service">Service</a>
+            <a href="#service" onClick={() => setIsOpen(false)}>
+              Service
+            </a>
           </li>
           <li className="hover:opacity-50 hover:cursor-pointer">
-            <a href="#gallery">Gallery</a>
+            <a href="#gallery" onClick={() => setIsOpen(false)}>
+              Gallery
+            </a>
           </li>
           <li className="hover:opacity-50 hover:cursor-pointer">
-            <a href="#contact">Contact</a>
+            <a href="#contact" onClick={() => setIsOpen(false)}>
+              Contact
+            </a>
           </li>
         </ul>
       </div>
