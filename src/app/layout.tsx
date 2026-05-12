@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sejukin.vercel.app"),
+  metadataBase: new URL("https://sejuk-in.vercel.app"),
   title: "Sejukin | Professional AC Installation & Service",
   description:
     "Sejukin is a trusted air conditioning service provider specializing in AC installation, maintenance, repair, and procurement solutions for homes and businesses",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sejukin | Professional AC Installation & Service",
     description: "Trusted AC installation and maintenance services",
-    url: "https://sejukin.vercel.app",
+    url: "https://sejuk-in.vercel.app",
     siteName: "Sejukin",
     images: [
       {
