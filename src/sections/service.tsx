@@ -39,7 +39,7 @@ export default function Service() {
           <div className="relative w-full h-50">
             <Image
               src="/service.webp"
-              alt="AC Installation"
+              alt="AC Service"
               fill
               className="object-cover rounded-t-2xl brightness-75"
             />
@@ -60,7 +60,7 @@ export default function Service() {
           <div className="relative w-full h-50">
             <Image
               src="/maintenance.webp"
-              alt="AC Installation"
+              alt="AC Maintenance"
               fill
               className="object-cover rounded-t-2xl saturate-50"
             />
@@ -83,7 +83,7 @@ export default function Service() {
           <div className="relative w-full h-50">
             <Image
               src="/procurement.webp"
-              alt="AC Installation"
+              alt="AC Procurement"
               fill
               className="object-cover rounded-t-2xl saturate-50"
             />

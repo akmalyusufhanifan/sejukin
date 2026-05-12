@@ -3,6 +3,7 @@
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,18 +25,27 @@ export default function NavBar() {
   }`}
       >
         {/* logo */}
-        <div className="text-3xl text-black">Sejuk.In</div>
+        <a href="#banner" className="hover:cursor-pointer">
+          <div className="relative w-32 h-10 lg:w-40">
+            <Image
+              src="/logo.webp"
+              alt="Sejukin's Logo"
+              fill
+              className="object-cover"
+            />
+          </div>
+        </a>
 
         {/* hamburger - mobile */}
         <button
           onClick={() => setIsOpen(true)}
           className="md:hidden hover:cursor-pointer hover:opacity-50"
         >
-          <RxHamburgerMenu className="text-3xl text-black" />
+          <RxHamburgerMenu className="text-3xl text-gray-700" />
         </button>
 
         {/* navigation - desktop */}
-        <div className="hidden md:flex justify-between items-center w-125 text-black text-xl">
+        <div className="hidden md:flex justify-between items-center w-125 text-gray-700 text-xl">
           <a href="#banner" className="hover:opacity-50">
             Home
           </a>
@@ -73,11 +83,11 @@ export default function NavBar() {
             onClick={() => setIsOpen(false)}
             className="md:hidden hover:cursor-pointer hover:opacity-50"
           >
-            <IoMdClose className="text-4xl text-black" />
+            <IoMdClose className="text-4xl text-gray-700" />
           </button>
         </div>
 
-        <ul className="pl-6 pt-4 text-xl text-black space-y-4">
+        <ul className="pl-6 pt-4 text-xl text-gray-700 space-y-4">
           <li className="hover:opacity-50 hover:cursor-pointer">
             <a href="#banner" onClick={() => setIsOpen(false)}>
               Home
